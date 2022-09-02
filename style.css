@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+img{
+    border-radius: 10px;
+}
+
+.container{
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    width: 505px;
+    margin: auto;
+    background-color: white;
+}
+.second-container{
+    margin-top: 20px;
+}
+
+label{
+    color: blueviolet;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.password::placeholder{
+    color: grey;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.password{
+    border: none;
+    border-bottom: 1px solid grey;
+    height:40px ;
+}
+
+.password-container{
+    margin-top: 20px;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    height: 40px;
+}
+
+input{
+    width: 28rem;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 70px;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#paragraph-2{
+    color: blueviolet;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.bottom{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 2;
+    font-size: small;
+}
+
